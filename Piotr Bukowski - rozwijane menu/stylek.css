@@ -46,7 +46,15 @@ body{
   margin-bottom: auto;
 }
 
+a:link {
+  text-decoration: none;
+}
 
+.nav{
+width: 100%;
+padding: 10px 0;
+background-color: #808080;
+text-align: center;}
 
 
 ol
@@ -85,12 +93,12 @@ ol > li:first-child
 
 ol > li:hover
 {
-	background-color: #111111; < kolor guzika po najechaniu
+	background-color: #FFFFFF; < kolor guzika po najechaniu
 }
 
 ol > li:hover > a
 {
-	color: #451717;
+	color: #665d5d;
 }
 
 ol > li > ul
@@ -112,7 +120,7 @@ ol > li > ul > li
 	background-color:#111111; < kolor w menu
 	position: relative;
 	z-index: 100;
-	border-top: 1px dashed #751b1b;
+	border-top: 1px dashed #FFFFFF;
 }
 
 ol > li > ul > li:hover
@@ -122,5 +130,5 @@ ol > li > ul > li:hover
 
 ol > li > ul > li:hover > a
 {
-	color: #451717;
+	color: #FFFFFF;
 }
