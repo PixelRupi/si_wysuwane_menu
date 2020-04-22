@@ -1,0 +1,126 @@
+body{
+  background-color: #303030;
+  color: #ffffff;
+}
+
+#header{
+  clear: both;
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-color: #012345;
+  color: #ffffff;
+  text-align: center;
+  font-size: 70px;
+}
+
+#panel_lewy{
+  float: left;
+  width: 40%;
+  background-color: #123456;
+  height: 650px;
+  font-size: 70px;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+}
+
+#panel_prawy{
+  float: left;
+  width: 60%;
+  background-color: #234567;
+  height: 650px;
+  font-size: 70px;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+}
+
+#footer{
+  clear: both;
+  background-color: #345678;
+  text-align: center;
+  height: 100px;
+  font-size: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+  text-align: center;
+}
+
+ol a
+{
+	color: #ffffff; < napisy na guziku przed najechaniem
+	text-decoration: none;
+	display: block;
+  text-align: center;
+
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #ffffff; < kolor oddzielacza
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #ffffff; < kolor oddzielacza
+}
+
+ol > li:hover
+{
+	background-color: #111111; < kolor guzika po najechaniu
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#111111; < kolor w menu
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #222222; < czcionka w menu
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
+}
