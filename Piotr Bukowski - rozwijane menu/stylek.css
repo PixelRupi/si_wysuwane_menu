@@ -83,17 +83,17 @@ ol > li
 	float: left;
 	width: 150px;
 	height: 40px;
-	border-right: 1px dashed #ffffff; < kolor oddzielacza
+	border-right: 1px dashed #ffffff;
 }
 
 ol > li:first-child
 {
-	border-left: 1px dashed #ffffff; < kolor oddzielacza
+	border-left: 1px dashed #ffffff;
 }
 
 ol > li:hover
 {
-	background-color: #FFFFFF; < kolor guzika po najechaniu
+	background-color: #FFFFFF;
 }
 
 ol > li:hover > a
@@ -117,7 +117,7 @@ ol > li:hover > ul
 
 ol > li > ul > li
 {
-	background-color:#111111; < kolor w menu
+	background-color:#111111;
 	position: relative;
 	z-index: 100;
 	border-top: 1px dashed #FFFFFF;
@@ -125,7 +125,7 @@ ol > li > ul > li
 
 ol > li > ul > li:hover
 {
-	background-color: #222222; < czcionka w menu
+	background-color: #222222;
 }
 
 ol > li > ul > li:hover > a
